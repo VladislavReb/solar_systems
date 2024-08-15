@@ -1,0 +1,228 @@
+.third_section {
+  &__wrapper {
+    padding: 156px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .thi_s__title {
+      font-size: 21px;
+      font-weight: 600;
+      color: #868585;
+    }
+
+    .thi_s__parts {
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+
+      .thi_s__part1 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        max-width: 550px;
+        min-width: 550px;
+
+        .part1 {
+          display: flex;
+          gap: 35px;
+
+          .part1_slider {
+            display: flex;
+            padding: 7px 0 0 7px;
+            border-top: 3px solid #868585;
+            border-left: 3px solid #868585;
+          }
+
+          .part1_slider img {
+            width: 235px;
+          }
+
+          .part1_description{
+            max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            & p {
+              font-size: 14px;
+            }
+          }
+
+          .part1_arrows {
+            display: flex;
+            gap: 25px;
+
+            & img {
+              padding: 3px 0;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .part1_info {
+          display: flex;
+          gap: 15px;
+
+          .part1_item {
+            padding: 10px;
+            min-height: 115px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & > h6 {
+              font-size: 14px;
+              font-weight: 600;
+            }
+
+            & > p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .thi_s__part2 {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        max-width: 520px;
+        min-width: 520px;
+
+        & p {
+          font-size: 15px;
+          font-weight: 600;
+        }
+
+        & > div {
+          padding: 0 12px 12px 0;
+          border-bottom: 3px solid #868585;
+          border-right: 3px solid #868585;
+          overflow: hidden;
+        }
+
+        & > div > img {
+          width: 505px;
+          transition-duration: 1s;
+
+          &:hover {
+            transform: scale(1.2);
+            transition-duration: 1s;
+          }
+        }
+      }
+    }
+
+    .slick-track {
+      width: 250px;
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .third_section {
+    &__wrapper {
+      .thi_s__title {
+        font-size: 25px;
+      }
+
+      .thi_s__parts {
+        .thi_s__part1 {
+          .part1 {
+            .part1_description{
+              & p {
+                font-size: 16px;
+              }
+            }
+          }
+
+          .part1_info {
+            .part1_item {
+              & > h6 {
+                font-size: 16px;
+              }
+
+              & > p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+
+        .thi_s__part2 {
+          & p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
+  .third_section {
+    &__wrapper {
+      padding: 115px 0;
+      gap: 60px;
+
+
+      .thi_s__parts {
+        .thi_s__part1 {
+          max-width: 520px;
+          min-width: 520px;
+        }
+
+        .thi_s__part2 {
+          gap: 100px;
+          max-width: 440px;
+          min-width: 440px;
+
+
+          & > div > img {
+            width: 420px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    &__wrapper {
+      padding: 70px 0;
+      gap: 30px;
+
+      .thi_s__title {
+        text-align: center;
+      }
+
+      .thi_s__parts {
+        flex-direction: column;
+        align-items: center;
+
+        .thi_s__part1 {
+          max-width: 740px;
+          min-width: 740px;
+        }
+
+        .thi_s__part2 {
+          gap: 20px;
+          max-width: 740px;
+          min-width: 740px;
+
+          & > div > img {
+            width: 720px;
+          }
+        }
+      }
+
+      .slick-track {
+        width: 350px;
+        height: 250px;
+      }
+    }
+  }
+}

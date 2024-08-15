@@ -1,0 +1,228 @@
+.footer {
+  margin-top: 150px;
+  position: relative;
+
+  &__img {
+    img {
+      width: 100%;
+      margin-bottom: -5px;
+    }
+  }
+
+  .footer__wrapper {
+    min-width: 1100px;
+    position: absolute;
+    top: 55px;
+    left:50%;
+    transform:translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+
+    .footer__wrapper_1 {
+      display: flex;
+      justify-content: space-between;
+      gap: 75px;
+
+      .footer_left {
+        .form__title {
+          text-align: center;
+          font-size: 19px;
+          font-weight: 600;
+          color: white;
+        }
+
+        .footer__form {
+          padding-top: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+
+          .form__name, .form__phone {
+            min-width: 380px;
+            min-height: 25px;
+            padding: 10px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            color: white;
+            font-size: 17px;
+
+            &::placeholder {
+              color: white;
+              font-size: 17px;
+            }
+          }
+
+          .form__button {
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            & button {
+              background: transparent;
+              color: white;
+              font-size: 17px;
+              border: none;
+              cursor: pointer;
+            }
+
+            & img:hover {
+                background-color: #06f506;
+                border-radius: 51px;
+            }
+          }
+        }
+      }
+
+      .footer_right {
+        min-width: 450px;
+
+        & p {
+          text-align: center;
+          color: white;
+        }
+
+        & > p {
+          font-size: 19px;
+          font-weight: 600;
+        }
+
+        & > div {
+          padding-top: 60px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+        }
+      }
+    }
+
+    .footer__wrapper_2 {
+      margin: 0 auto;
+      padding-top: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+
+      & div {
+        display: flex;
+        align-items: center;
+
+        & > img {
+          width: 29px;
+        }
+      }
+
+      .footer2__name {
+        color: white;
+        font-size: 21px;
+      }
+
+      .f__links {
+        display: flex;
+        gap: 15px;
+        transition-duration: 2s;
+
+        & a:hover {
+          transform: rotate(360deg);
+          transition-duration: 2s;
+        }
+      }
+
+      .footer__visitCard {
+        margin-top: 10px;
+        text-decoration: underline;
+        color: white;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer {
+    .footer__wrapper {
+      min-width: 1400px;
+      top: 255px;
+
+      .footer__wrapper_1 {
+        .footer_left {
+          .form__title {
+            font-size: 23px;
+          }
+
+          .footer__form {
+            .form__name, .form__phone {
+              font-size: 19px;
+
+              &::placeholder {
+                font-size: 19px;
+              }
+            }
+
+            .form__button {
+              & button {
+                font-size: 19px;
+              }
+            }
+          }
+        }
+
+        .footer_right {
+          & > p {
+            font-size: 23px;
+          }
+        }
+      }
+
+      .footer__wrapper_2 {
+
+        .footer2__name {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1364px) {
+  .footer {
+    margin-top: 70px;
+    overflow: hidden;
+
+    &__img {
+      img {
+        width: 140%;
+      }
+    }
+
+    .footer__wrapper {
+      padding: 0 10px;
+      min-width: 1024px;
+
+      .footer__wrapper_1 {
+        display: flex;
+        justify-content: space-around;
+        gap: 65px;
+
+        .footer_right {
+          min-width: 250px;
+
+          & > div {
+            gap: 30px;
+          }
+        }
+      }
+
+      .footer__wrapper_2 {
+        padding-top: 15px;
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.fifth_section {
+  padding-top: 150px;
+}
+.fifth_section__wrapper .fif_s__title {
+  font-size: 21px;
+  font-weight: 600;
+  color: #868585;
+}
+.fifth_section__wrapper .fif_s__content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part1 .fif_s__slider {
+  width: 510px;
+  height: 370px;
+  padding: 7px 0 0 7px;
+  border-top: 3px solid #868585;
+  border-left: 3px solid #868585;
+  overflow: hidden;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part1 .fif_s__arrows {
+  display: flex;
+  gap: 25px;
+  align-self: center;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part1 .fif_s__arrows img {
+  padding: 5px 0;
+  cursor: pointer;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 510px;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 h5 {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 a {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 a img {
+  width: 75px;
+  cursor: pointer;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 a img:hover {
+  background-color: #06f506;
+  border-radius: 51px;
+}
+.fifth_section__wrapper .fif_s__content .fif_s__part2 a span {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1920px) {
+  .fifth_section__wrapper .fif_s__title {
+    font-size: 25px;
+  }
+  .fifth_section__wrapper .fif_s__content .fif_s__part2 h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
+  .fifth_section {
+    padding-top: 115px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fifth_section {
+    padding-top: 70px;
+  }
+  .fifth_section__wrapper .fif_s__title {
+    text-align: center;
+  }
+  .fifth_section__wrapper .fif_s__content {
+    padding-top: 30px;
+  }
+  .fifth_section__wrapper .fif_s__content .fif_s__part1 .fif_s__slider {
+    width: 430px;
+    height: 320px;
+  }
+  .fifth_section__wrapper .fif_s__content .fif_s__part2 a {
+    margin-top: 35px;
+  }
+}
+
+/*# sourceMappingURL=fifth_section.css.map */
