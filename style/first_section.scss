@@ -33,6 +33,7 @@
       padding-top: 140px;
       font-size: 21px;
       color: white;
+      text-align: center;
     }
 
     .fs__title {
@@ -49,6 +50,7 @@
     .fs__open_modal {
       margin-top: 50px;
       display: flex;
+      justify-content: space-around;
       align-items: center;
       gap: 10px;
 
@@ -66,6 +68,7 @@
         color: white;
         font-size: 19px;
         cursor: pointer;
+        text-align: center;
       }
     }
 
@@ -105,7 +108,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1364px) {
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
   .first_section {
     &__img img{
       width: 100%;
@@ -143,22 +146,178 @@
   }
 }
 
-@media screen and (min-width: 595px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .first_section {
-    &__img img{
-      width: 100%;
-    }
-
     &__content {
-      min-width: 600px;
+      min-width: 650px;
+      padding: 15px 5px;
+
+      .fs__name {
+        font-size: 25px;
+      }
+
+      .fs__img {
+        width: 35px;
+      }
 
       .fs__par {
-        padding-top: 40px;
+        padding-top: 35px;
+        font-size: 21px;
+      }
+
+      .fs__title {
+        font-size: 37px;
+      }
+
+      .fs__par2 {
+        font-size: 21px;
+      }
+
+      .fs__open_modal {
+        margin-top: 20px;
+
+        &_img {
+          width: 60px;
+        }
+      }
+
+      .fs__links {
+        margin-top: 55px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .first_section {
+    overflow: hidden;
+
+    &__img img{
+      margin-left: -165px;
+      width: 160%;
+    }
+    &__content {
+      top: 10%;
+      min-width: 570px;
+      padding: 15px 5px;
+
+      .fs__name {
+        font-size: 25px;
+      }
+
+      .fs__img {
+        width: 35px;
+      }
+
+      .fs__par {
+        padding-top: 55px;
         font-size: 19px;
       }
 
       .fs__title {
-        font-size: 35px;
+        font-size: 29px;
+      }
+
+      .fs__par2 {
+        font-size: 19px;
+      }
+
+      .fs__open_modal {
+        margin-top: 25px;
+
+        &_img {
+          width: 60px;
+        }
+      }
+
+      .fs__links {
+        margin-top: 60px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .first_section {
+    overflow: hidden;
+
+    &__img img{
+      margin-left: -380px;
+      width: 280%;
+    }
+    &__content {
+      top: 13%;
+      min-width: 410px;
+      padding: 15px 5px;
+
+      .fs__name {
+        font-size: 25px;
+      }
+
+      .fs__img {
+        width: 35px;
+      }
+
+      .fs__par {
+        padding-top: 85px;
+        font-size: 19px;
+      }
+
+      .fs__title {
+        font-size: 29px;
+      }
+
+      .fs__par2 {
+        font-size: 19px;
+      }
+
+      .fs__open_modal {
+        margin-top: 25px;
+
+        &_img {
+          width: 60px;
+        }
+
+        &_text {
+          font-size: 17px;
+        }
+      }
+
+      .fs__links {
+        margin-top: 110px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .first_section {
+    overflow: hidden;
+
+    &__img img{
+      margin-left: -400px;
+      width: 310%;
+    }
+    &__content {
+      top: 13%;
+      min-width: 380px;
+      padding: 15px 5px;
+
+      .fs__name {
+        font-size: 25px;
+      }
+
+      .fs__img {
+        width: 35px;
+      }
+
+      .fs__par {
+        padding-top: 85px;
+        font-size: 19px;
+      }
+
+      .fs__title {
+        font-size: 29px;
       }
 
       .fs__par2 {
@@ -167,7 +326,11 @@
       }
 
       .fs__open_modal {
-        margin-top: 20px;
+        margin-top: 25px;
+
+        &_img {
+          width: 60px;
+        }
 
         &_text {
           font-size: 17px;
@@ -175,7 +338,61 @@
       }
 
       .fs__links {
-        margin-top: 75px;
+        margin-top: 80px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .first_section {
+    overflow: hidden;
+
+    &__img img{
+      margin-left: -370px;
+      width: 330%;
+    }
+    &__content {
+      top: 10%;
+      min-width: 310px;
+      padding: 15px 5px;
+
+      .fs__name {
+        font-size: 25px;
+      }
+
+      .fs__img {
+        width: 35px;
+      }
+
+      .fs__par {
+        padding-top: 45px;
+        font-size: 19px;
+      }
+
+      .fs__title {
+        font-size: 29px;
+      }
+
+      .fs__par2 {
+        text-align: center;
+        font-size: 19px;
+      }
+
+      .fs__open_modal {
+        margin-top: 25px;
+
+        &_img {
+          width: 50px;
+        }
+
+        &_text {
+          font-size: 14px;
+        }
+      }
+
+      .fs__links {
+        margin-top: 70px;
       }
     }
   }

@@ -143,7 +143,7 @@
     font-size: 21px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1364px) {
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
   .footer {
     margin-top: 70px;
     overflow: hidden;
@@ -169,6 +169,317 @@
   .footer .footer__wrapper .footer__wrapper_2 {
     padding-top: 15px;
     gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    margin-top: 70px;
+    overflow: hidden;
+  }
+  .footer__img img {
+    width: 140%;
+  }
+  .footer .footer__wrapper {
+    min-width: 700px;
+    top: 25px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .form__title {
+    font-size: 17px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form {
+    padding-top: 30px;
+    gap: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone {
+    min-width: 310px;
+    min-height: 20px;
+    padding: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name::placeholder, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone::placeholder {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button {
+    margin-top: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button button {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button img {
+    width: 75px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right {
+    min-width: 310px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > p {
+    font-size: 17px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > div {
+    padding-top: 40px;
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .footer {
+    margin-top: 70px;
+    overflow: hidden;
+  }
+  .footer__img img {
+    width: 270%;
+  }
+  .footer .footer__wrapper {
+    min-width: 580px;
+    top: 30px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .form__title {
+    font-size: 17px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form {
+    padding-top: 15px;
+    gap: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone {
+    min-width: 310px;
+    min-height: 20px;
+    padding: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name::placeholder, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone::placeholder {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button {
+    margin-top: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button button {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button img {
+    width: 75px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right {
+    min-width: 310px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > p {
+    font-size: 17px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > div {
+    padding-top: 10px;
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .footer {
+    margin-top: 70px;
+    overflow: hidden;
+  }
+  .footer__img img {
+    width: 310%;
+  }
+  .footer .footer__wrapper {
+    min-width: 400px;
+    top: 30px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .form__title {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form {
+    padding-top: 15px;
+    gap: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone {
+    min-width: 310px;
+    min-height: 20px;
+    padding: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name::placeholder, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone::placeholder {
+    font-size: 12px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button {
+    margin-top: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button button {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button img {
+    width: 45px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right {
+    min-width: 310px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > p {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > div {
+    padding-top: 10px;
+    gap: 7px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 {
+    padding-top: 15px;
+    gap: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer2__name {
+    font-size: 19px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .f__links img {
+    width: 80%;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer__visitCard {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .footer {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .footer__img img {
+    width: 340%;
+  }
+  .footer .footer__wrapper {
+    min-width: 400px;
+    top: 30px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .form__title {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form {
+    padding-top: 15px;
+    gap: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone {
+    min-width: 310px;
+    min-height: 20px;
+    padding: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name::placeholder, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone::placeholder {
+    font-size: 12px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button {
+    margin-top: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button button {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button img {
+    width: 45px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right {
+    min-width: 310px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > p {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > div {
+    padding-top: 10px;
+    gap: 7px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 {
+    padding-top: 15px;
+    gap: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer2__name {
+    font-size: 19px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .f__links img {
+    width: 80%;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer__visitCard {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .footer {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .footer__img img {
+    width: 400%;
+  }
+  .footer .footer__wrapper {
+    min-width: 310px;
+    top: 30px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .form__title {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form {
+    padding-top: 15px;
+    gap: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone {
+    min-width: 310px;
+    min-height: 20px;
+    padding: 5px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__name::placeholder, .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__phone::placeholder {
+    font-size: 12px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button {
+    margin-top: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button button {
+    font-size: 15px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_left .footer__form .form__button img {
+    width: 45px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right {
+    min-width: 310px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > p {
+    font-size: 14px;
+  }
+  .footer .footer__wrapper .footer__wrapper_1 .footer_right > div {
+    padding-top: 10px;
+    gap: 7px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 {
+    padding-top: 15px;
+    gap: 10px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer2__name {
+    font-size: 19px;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .f__links img {
+    width: 80%;
+  }
+  .footer .footer__wrapper .footer__wrapper_2 .footer__visitCard {
+    margin-top: 10px;
+    font-size: 12px;
   }
 }
 

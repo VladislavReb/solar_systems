@@ -202,6 +202,7 @@
       .thi_s__parts {
         flex-direction: column;
         align-items: center;
+        gap: 35px;
 
         .thi_s__part1 {
           max-width: 740px;
@@ -210,11 +211,11 @@
 
         .thi_s__part2 {
           gap: 20px;
-          max-width: 740px;
-          min-width: 740px;
+          max-width: 640px;
+          min-width: 640px;
 
           & > div > img {
-            width: 720px;
+            width: 620px;
           }
         }
       }
@@ -222,6 +223,208 @@
       .slick-track {
         width: 350px;
         height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .third_section {
+    &__wrapper {
+      padding: 70px 0;
+      gap: 30px;
+
+      .thi_s__title {
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .thi_s__parts {
+        flex-direction: column;
+        align-items: center;
+
+        .thi_s__part1 {
+
+          .part1_info {
+            display: flex;
+            gap: 15px;
+          }
+        }
+
+        .thi_s__part2 {
+          & p {
+            font-size: 14px;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .third_section {
+    &__wrapper {
+      padding: 70px 0;
+      gap: 30px;
+
+      .thi_s__title {
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .thi_s__parts {
+        flex-direction: column;
+        align-items: center;
+
+        .thi_s__part1 {
+          max-width: 400px;
+          min-width: 400px;
+
+          .part1 {
+            flex-direction: column;
+          }
+
+          .part1_info {
+            display: flex;
+            gap: 15px;
+          }
+
+          .part1_arrows {
+            margin-top: 15px;
+            justify-content: center;
+          }
+        }
+
+        .thi_s__part2 {
+          gap: 25px;
+          max-width: 390px;
+          min-width: 390px;
+
+          & p {
+            font-size: 14px;
+            padding: 0 10px;
+          }
+
+          & > div > img {
+            width: 375px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .third_section {
+    &__wrapper {
+      padding: 30px 0;
+      gap: 30px;
+
+      .thi_s__title {
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .thi_s__parts {
+        flex-direction: column;
+        align-items: center;
+
+        .thi_s__part1 {
+          max-width: 360px;
+          min-width: 360px;
+
+          .part1 {
+            flex-direction: column;
+          }
+
+          .part1_info {
+            display: flex;
+            gap: 15px;
+          }
+
+          .part1_arrows {
+            margin-top: 15px;
+            justify-content: center;
+          }
+        }
+
+        .thi_s__part2 {
+          gap: 25px;
+          max-width: 350px;
+          min-width: 350px;
+
+          & p {
+            font-size: 14px;
+            padding: 0 10px;
+          }
+
+          & > div > img {
+            width: 335px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .third_section {
+    &__wrapper {
+      padding: 30px 0;
+      gap: 30px;
+
+      .thi_s__title {
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .thi_s__parts {
+        flex-direction: column;
+        align-items: center;
+
+        .thi_s__part1 {
+          max-width: 300px;
+          min-width: 300px;
+
+          .part1 {
+            flex-direction: column;
+          }
+
+          .part1_info {
+            display: flex;
+            gap: 15px;
+
+            .part1_item {
+              padding: 5px;
+              height: 260px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+            }
+          }
+
+          .part1_arrows {
+            margin-top: 15px;
+            justify-content: center;
+          }
+        }
+
+        .thi_s__part2 {
+          gap: 15px;
+          max-width: 300px;
+          min-width: 300px;
+
+          & p {
+            margin-top: -30px;
+            font-size: 14px;
+            padding: 0 10px;
+          }
+
+          & > div > img {
+            width: 285px;
+          }
+        }
       }
     }
   }

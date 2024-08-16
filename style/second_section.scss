@@ -117,7 +117,164 @@
     }
 
     &__part2 img {
-      width: 720px;
+      width: 620px;
+    }
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .second_section {
+    &__wrapper {
+      padding-top: 70px;
+      gap: 30px;
+
+      .sec_s__title {
+        font-size: 17px;
+        text-align: center;
+      }
+    }
+
+    &__parts {
+      align-items: center;
+      flex-direction: column;
+      gap: 65px;
+    }
+
+    &__part1 {
+      .sec_s__content {
+        max-width: 540px;
+
+        & h6 {
+          text-align: center;
+        }
+      }
+    }
+
+    &__part2 img {
+      width: 530px;
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .second_section {
+    &__wrapper {
+      padding-top: 70px;
+      gap: 30px;
+
+      .sec_s__title {
+        font-size: 17px;
+        text-align: center;
+      }
+    }
+
+    &__parts {
+      align-items: center;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    &__part1 {
+      gap: 20px;
+
+      .sec_s__content {
+        max-width: 400px;
+
+        & h6 {
+          text-align: center;
+          font-size: 14px;
+        }
+
+        & p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &__part2 img {
+      width: 380px;
+    }
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .second_section {
+    &__wrapper {
+      padding-top: 30px;
+      gap: 30px;
+
+      .sec_s__title {
+        font-size: 17px;
+        text-align: center;
+      }
+    }
+
+    &__parts {
+      align-items: center;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    &__part1 {
+      gap: 20px;
+
+      .sec_s__content {
+        max-width: 360px;
+
+        & h6 {
+          text-align: center;
+          font-size: 14px;
+        }
+
+        & p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &__part2 img {
+      width: 340px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .second_section {
+    &__wrapper {
+      padding-top: 30px;
+      gap: 30px;
+
+      .sec_s__title {
+        font-size: 17px;
+        text-align: center;
+      }
+    }
+
+    &__parts {
+      align-items: center;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    &__part1 {
+      gap: 20px;
+
+      .sec_s__content {
+        max-width: 300px;
+
+        & h6 {
+          text-align: center;
+          font-size: 14px;
+        }
+
+        & p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &__part2 img {
+      width: 290px;
     }
   }
 }

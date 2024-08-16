@@ -75,5 +75,89 @@
     width: 470px;
   }
 }
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .sixth_section .six_s__wrapper {
+    padding-top: 70px;
+  }
+  .sixth_section .six_s__wrapper .six_s__title {
+    font-size: 17px;
+    text-align: center;
+  }
+  .sixth_section .six_s__wrapper .six_s__content {
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 25px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part1 {
+    gap: 10px;
+    width: 550px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part2 > div > img {
+    width: 505px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 594px) {
+  .sixth_section .six_s__wrapper {
+    padding-top: 70px;
+  }
+  .sixth_section .six_s__wrapper .six_s__title {
+    font-size: 17px;
+    text-align: center;
+  }
+  .sixth_section .six_s__wrapper .six_s__content {
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 25px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part1 {
+    gap: 10px;
+    width: 390px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part2 > div > img {
+    width: 380px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .sixth_section .six_s__wrapper {
+    padding-top: 30px;
+  }
+  .sixth_section .six_s__wrapper .six_s__title {
+    font-size: 17px;
+    text-align: center;
+  }
+  .sixth_section .six_s__wrapper .six_s__content {
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 25px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part1 {
+    gap: 10px;
+    width: 360px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part2 > div > img {
+    width: 340px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 379px) {
+  .sixth_section .six_s__wrapper {
+    padding-top: 30px;
+  }
+  .sixth_section .six_s__wrapper .six_s__title {
+    font-size: 17px;
+    text-align: center;
+  }
+  .sixth_section .six_s__wrapper .six_s__content {
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 25px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part1 {
+    gap: 10px;
+    width: 300px;
+  }
+  .sixth_section .six_s__wrapper .six_s__content .six_s__part2 > div > img {
+    width: 280px;
+  }
+}
 
 /*# sourceMappingURL=sixth_section.css.map */
