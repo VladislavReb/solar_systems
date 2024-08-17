@@ -55,10 +55,6 @@
   width: 75px;
   cursor: pointer;
 }
-.fifth_section__wrapper .fif_s__content .fif_s__part2 a img:hover {
-  background-color: #06f506;
-  border-radius: 51px;
-}
 .fifth_section__wrapper .fif_s__content .fif_s__part2 a span {
   cursor: pointer;
 }

@@ -127,11 +127,6 @@
         display: flex;
         gap: 15px;
         transition-duration: 2s;
-
-        & a:hover {
-          transform: rotate(360deg);
-          transition-duration: 2s;
-        }
       }
 
       .footer__visitCard {
